@@ -1,30 +1,26 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 1: 18 May 2019
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Worked on a basic setup of TDD on React.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** I have been making some React apps, all of them are using the
+awesome create-react-app. I also have made a WordPress Gutenberg block, which is
+React based, using create-guten-block. They are a very great bootstrap tools to
+get a project going. But I've been wondering about the gears ticking behind the
+scenes.
 
-**Link to work:** [Calculator App](http://www.example.com)
+I found a great series about TDD on React that start from the basics of
+toolings. Too bad it didn't use Webpack as I'm starting to get familiar with it.
+But on second thought maybe we don't need it yet, just some basic stuff to do
+testing ond React.
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+Got some hiccups when I setup [Cypress](http://cypress.io). I've been doing the
+challange in my Windows machine and used WSL (Windows Subsystem for Linux). It
+seems Cypress can't really work with WSL, so I need to install it on the Windows
+side rather. I don't know, maybe I'll continue on my Mac next time. It took
+quite sometime to get the setup working, but I think the basic setup to do TDD
+is ready.
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+**Link to work:**
+[React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
