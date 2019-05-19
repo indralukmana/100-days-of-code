@@ -1,10 +1,10 @@
 # 100 Days Of Code - Log
 
-### Day 1: 18 May 2019
+## Day 1: 18 May 2019
 
 **Today's Progress**: Worked on a basic setup of TDD on React.
 
-**Thoughts:** I have been making some React apps; all of them are using the
+**Thoughts**: I have been making some React apps; all of them are using the
 awesome create-react-app. I also have made a WordPress Gutenberg block, which is
 React based, using create-guten-block. They are very great bootstrapping tools
 to get a project going. But I've been wondering about the gears ticking behind
@@ -21,6 +21,33 @@ seems Cypress can't work with WSL, so I need to install it on the Windows side
 rather. I don't know; maybe I'll continue on my Mac next time. It took quite
 some time to get the setup working, but I think the basic setup to do TDD is
 ready.
+
+**Link to work:**
+[React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
+
+## Day 2: 19 May 2019
+
+**Today's Progress**: Complete a feature following basic TDD.
+
+**Thoughts**: After completing the setup yesterday, I started working on the TDD
+basic. I used Cypress for the End-to-End testing then made a unit test on the
+internal functionality using Enzyme and jest. I still not clear on the testing
+concepts on the things I've read. There are snapshot testing, unit testing,
+behaviour testing, etc.
+
+For unit testing, I think I already got the gist of it. Unit testing do the test
+on the basic functions, for example, when we save data, we will use saveData(),
+unit testing tests the saveData() to make sure it does what it was intended.
+
+Another concept which I think I start to get the hang of it is the End-to-End
+testing. The testing test what the users are expected to experience. So, on the
+front-end react if there is an End-to-End button test will test the button
+according to how the users will interact with it.
+
+For these TDD basics, I'm following a series in CodingItWrong youtube channel
+supplemented with some articles and the official documentation. I intend to work
+my basics here, then rework some of my simple side projects in the past in TDD
+way (maybe my react-kalkulator project).
 
 **Link to work:**
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
