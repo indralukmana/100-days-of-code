@@ -74,3 +74,5 @@ wrote the Cypress tests first then implement the feature.
 
 **Link to work:**
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
+
+![Day 3 Progress](https://github.com/indralukmana/100-days-of-code/raw/master/screenshots/D3.gif)
