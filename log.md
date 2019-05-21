@@ -44,10 +44,33 @@ testing. The testing test what the users are expected to experience. So, on the
 front-end react if there is an End-to-End button test will test the button
 according to how the users will interact with it.
 
-For these TDD basics, I'm following a series in CodingItWrong youtube channel
+For these TDD basics, I'm following a series in [CodingItWrong youtube channel](https://youtu.be/0aAdglT39go)
 supplemented with some articles and the official documentation. I intend to work
 my basics here, then rework some of my simple side projects in the past in TDD
 way (maybe my react-kalkulator project).
+
+**Link to work:**
+[React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
+
+## Day 3: 20 May 2019
+
+**Today's Progress**: Add styling using React UI Framework
+
+**Thoughts**: I want to add some styling on the application. I've been working
+with Bootstrap and want to try something else for this project.
+
+I found out about [Fabric UI from Microsoft](https://github.com/OfficeDev/office-ui-fabric-react). It has React UI framework ready to
+use. I tried using it, but it seems like it can't work nicely with Parceljs that
+I'm using here. Maybe if we use it in a bundle with a build tool like Webpack,
+it can work better.
+
+Regardless, I don't want to increase the complexity of this project. My goal is
+to work on the TDD basics. So I looked for other UI Frameworks and found
+[Grommet](https://v2.grommet.io/). It seems nice and have some themes packaged with it.
+
+I chose to use Grommet and managed to switch the basic UIs to it. I also managed
+to add a feature to toggle light/dark theme with Grommet. Of course, in TDD way,
+wrote the Cypress tests first then implement the feature.
 
 **Link to work:**
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
