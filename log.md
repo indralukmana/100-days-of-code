@@ -101,3 +101,5 @@ work with CI.
 
 **Link to work:**
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
+
+![Day 4 Progress](https://github.com/indralukmana/100-days-of-code/raw/master/screenshots/D4.png)
