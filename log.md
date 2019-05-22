@@ -103,3 +103,22 @@ work with CI.
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
 
 ![Day 4 Progress](https://github.com/indralukmana/100-days-of-code/raw/master/screenshots/D4.png)
+
+## Day 5: 22 May 2019
+
+**Today's Progress**: Playing around with Grommet Box layout and layer/modal.
+Managed to put my form into the modal, centre the box for the general layout and
+a new field into the form.
+
+Before adding the new field, I add some unit test to drive the development.
+After I added the field, my end-to-end test regressed. I then changed the test
+to better suit the new field.
+
+I was going to add form validation for the fields. But I'm still unsure where to
+put validation in testing. Should I put it in the unit test (Jest/Enzyme) or
+end-to-end (Cypress)? I think this should be in the unit test because I believe
+there would be quite a lot of validation testing and end-to-end seems 'too
+expensive' to test these.
+
+**Link to work:**
+[React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
