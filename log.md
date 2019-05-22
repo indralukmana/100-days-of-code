@@ -44,10 +44,11 @@ testing. The testing test what the users are expected to experience. So, on the
 front-end react if there is an End-to-End button test will test the button
 according to how the users will interact with it.
 
-For these TDD basics, I'm following a series in [CodingItWrong youtube channel](https://youtu.be/0aAdglT39go)
-supplemented with some articles and the official documentation. I intend to work
-my basics here, then rework some of my simple side projects in the past in TDD
-way (maybe my react-kalkulator project).
+For these TDD basics, I'm following a series in
+[CodingItWrong youtube channel](https://youtu.be/0aAdglT39go) supplemented with
+some articles and the official documentation. I intend to work my basics here,
+then rework some of my simple side projects in the past in TDD way (maybe my
+react-kalkulator project).
 
 **Link to work:**
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
@@ -59,14 +60,16 @@ way (maybe my react-kalkulator project).
 **Thoughts**: I want to add some styling on the application. I've been working
 with Bootstrap and want to try something else for this project.
 
-I found out about [Fabric UI from Microsoft](https://github.com/OfficeDev/office-ui-fabric-react). It has React UI framework ready to
-use. I tried using it, but it seems like it can't work nicely with Parceljs that
-I'm using here. Maybe if we use it in a bundle with a build tool like Webpack,
-it can work better.
+I found out about
+[Fabric UI from Microsoft](https://github.com/OfficeDev/office-ui-fabric-react).
+It has React UI framework ready to use. I tried using it, but it seems like it
+can't work nicely with Parceljs that I'm using here. Maybe if we use it in a
+bundle with a build tool like Webpack, it can work better.
 
 Regardless, I don't want to increase the complexity of this project. My goal is
 to work on the TDD basics. So I looked for other UI Frameworks and found
-[Grommet](https://v2.grommet.io/). It seems nice and have some themes packaged with it.
+[Grommet](https://v2.grommet.io/). It seems nice and have some themes packaged
+with it.
 
 I chose to use Grommet and managed to switch the basic UIs to it. I also managed
 to add a feature to toggle light/dark theme with Grommet. Of course, in TDD way,
@@ -76,3 +79,25 @@ wrote the Cypress tests first then implement the feature.
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
 
 ![Day 3 Progress](https://github.com/indralukmana/100-days-of-code/raw/master/screenshots/D3.gif)
+
+## Day 4: 21 May 2019
+
+**Today's Progress**: For today's progress, I tried CircleCI for Continuous
+Integration. In the past, I have worked with teams that use CI in their
+repositories. So when I made a pull request, there will be a CI checking whether
+my PR was breaking anything. Honestly, I didn't know what it was all about. So
+today I tried my hands on this.
+
+I am not a DevOps specialist, so there are a lot of things I am not familiar
+with in this process. I don't think we need to master everything in web
+development. But I believe there is value to at least know about the gears that
+support our development. CI I think is one of those things, because it will make
+our flow in TDD automated when we work in a team.
+
+I managed to connect my React TDD Practice with CircleCI. I got a lot of hiccups
+when configuring Cypress with the CI. After fiddling with the configurations, I
+managed to work the end-to-end test Cypress, unit test Jest/Enzyme, and linting
+work with CI.
+
+**Link to work:**
+[React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
