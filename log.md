@@ -122,3 +122,5 @@ expensive' to test these.
 
 **Link to work:**
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
+
+![Day 5 Progress](https://github.com/indralukmana/100-days-of-code/raw/master/screenshots/D5.gif)
