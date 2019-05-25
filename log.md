@@ -124,3 +124,41 @@ expensive' to test these.
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
 
 ![Day 5 Progress](https://github.com/indralukmana/100-days-of-code/raw/master/screenshots/D5.gif)
+
+## Day 6: 23 May 2019
+
+**Today's Progress**: I managed to change the regular form to Formik today. Also
+playing around the general Box layout of Grommet.
+
+The validation also works nicely here. The form won't submit when the required
+fields are empty or in wrong format. So it generally work.
+
+I didn't do much on the testing part. But at least my previous tests are not
+breaking.
+
+**Link to work:**
+[React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
+
+## Day 7: 24 May 2019
+
+**Today's Progress**: So I was trying to implement the tests on Formik here. And
+it is quite challanging. After reading through the docs and GitHub issues
+regarding testing using Jest/Enzyme it is caused by the way Formik handle its
+form.
+
+So Formik is async and Jest is sync in nature. We need to do async-await or make
+some promises if we want to do the test. I'm still not familiar enough with
+Formik and Jest to do this. The examples I got seems quite complex and too
+involved for my small TDD practice project.
+
+So I'm taking a step back and re-evaluating my goals here. I want to get to know
+the tools used in TDD and then try to implement it in this practice project. I
+got to know end-to-end testing (acceptance test) with Cypress. I also get to
+know how to use Jest/Enzyme to do unit test.
+
+I think I managed to achieve my goal here for the first week. Next I want to
+make a small project following TDD not too complex but also have enough depth
+for me to play around with.
+
+**Link to work:**
+[React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
