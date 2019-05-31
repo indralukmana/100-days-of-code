@@ -162,3 +162,16 @@ for me to play around with.
 
 **Link to work:**
 [React TDD Practice](https://github.com/indralukmana/React-TDD-Practice)
+
+## Day 8: 25 May 2019
+
+**Today's Progress**: Taking a step back on the TDD learning project and
+reevaluated my goals on this challenge. I decided it’s enough for the big
+picture learning on TDD tools and time to implement it. I think it is best to
+try working a project where I can experience the process more personally.
+
+I was planning an app to work in TDD, so this is a nostalgic app for me, a todo
+list with points on each todo. I presented this app concept in college to a
+competition and got selected as a runner-up in south-east-asia. So I think this
+app will be small, managable, but can be deep enough if I want to play with
+something else e.g., Redux
