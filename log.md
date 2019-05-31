@@ -175,3 +175,26 @@ list with points on each todo. I presented this app concept in college to a
 competition and got selected as a runner-up in south-east-asia. So I think this
 app will be small, managable, but can be deep enough if I want to play with
 something else e.g., Redux
+
+## Day 9: 26 May 2019
+
+**Today's Progress**: I am using create-react-app for this project. I tried to
+manually setup things in the previous TDD learning project, and things got
+tedious. I want to focus more into React testing here.
+
+So I cleaned up create-react-app boilerplate. Setup enzyme for testing. Designed
+the app general functionality. I'm Still trying to figure out how to write them
+into tests e.g., should I just use shallow or full render with mount, use toBe
+or toEqual, etc.
+
+**Link to work:**
+[Epic Todo List](https://github.com/indralukmana/epic-todo-list)
+
+## Day 10: 26 May 2019
+
+**Today's Progress**: Wrote the tests for the basic functionality. Then
+implement them along the way. So basically the red-green-refactor concept in
+TDD. I was familiarizing myself with shallow testing in Enzyme. I was thinking
+some features that might make things better but also complicate the
+implementation e.g., points usages, pomodoro timer for todos, general
+gamification mechanics, etc. Shelf them for later.
